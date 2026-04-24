@@ -1,0 +1,39 @@
+# .gitignore for Port Scanner Project
+
+# Reports and output files
+reports/
+*.txt
+!README.txt
+!USAGE_GUIDE.txt
+
+# Sample outputs (keep as documentation)
+# sample_outputs/  <- Keep this for portfolio
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# OS files
+Thumbs.db
+.DS_Store
